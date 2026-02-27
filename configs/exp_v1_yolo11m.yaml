@@ -1,0 +1,12 @@
+experiment_name: v1_yolo11m_2026-02-26
+
+model: E:\document\new_ptgt_CVsubject\coding\models\pretrained\yolo11m.pt
+data_yaml: E:\document\new_ptgt_CVsubject\coding\data\v1\data.yaml
+
+project_dir: experiments
+
+epochs: 1
+imgsz: 640
+batch: 4
+device: 0
+

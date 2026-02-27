@@ -1,0 +1,20 @@
+experiment_name: v10(100epochs)_filterBB_all_yolo11m_2015-12-22
+
+model: /home/team_thuctap/ltlinh/new_ndanh/models/pretrained/yolo11m.pt
+data_yaml: /home/team_thuctap/ltlinh/new_ndanh/data/merged_data/v9_filterBB_all/data.yaml
+
+epochs: 100
+imgsz: 640
+batch: 4
+device: 0
+
+lr0: 0.001
+weight_decay: 0.0001
+momentum: 0.9
+
+project_dir: experiments
+
+# inference / analysis
+save_pred: true
+conf: 0.05
+iou: 0.15
