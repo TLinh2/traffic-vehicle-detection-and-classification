@@ -1,2 +1,0 @@
-correct,wrong_class,low_iou,false_positive,false_negative,total_pred,total_gt,precision,recall
-0,0,0,0,24633,0,24633,0,0.0
